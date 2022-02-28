@@ -491,7 +491,7 @@ export default {
           CVV: "",
         };
         //this.$set(this.CardDetails, this.CardDetails.length + 1, data);
-        this.CardDetails = data;
+        this.CardDetails.push(data);
         alert("Card saved");
         this.Addnewcard = false;
       }
